@@ -12,8 +12,8 @@ except ZeroDivisionError:
             div = (user_num1 / non_zer)
             count = 3
         else:
-            print("Mate! Told ya.. number greater than zero only.")
-            non_zer = int(input("Enter any number greater than zero to perform the magical division: "))        
+            print("Mate! Told ya.. enter a number greater than zero only.")
+            non_zer = int(input("Now enter any number greater than zero to perform the magical division: "))        
 finally:
   print(f"Math Magic! Division Result: {div}")
 
